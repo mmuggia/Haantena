@@ -1,0 +1,818 @@
+* {
+    direction: rtl;
+    font-family: 'Alef', sans-serif;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: darkgrey;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes fade_bar {
+    from { opacity: 0.5; }
+    to   { opacity: 1; }
+}
+
+@keyframes black_color_change {
+    from { color: rgb(50,49,50); }
+    to   { color: white; }
+}
+
+a {
+    text-decoration: none;
+}
+
+#body {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0px !important;
+}
+
+#side-bar {
+    cursor: pointer;
+    
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    background: blue;
+}
+
+.side-bar {
+    position: fixed;
+    right: 0;
+    background-color: #ffa510;
+    height: 100%;
+    
+}
+
+#side-bar-open {
+    box-shadow: 0px 0px 8px grey;
+    right: 0;
+    width: 330px;
+    /*background-color: pink;*/
+    z-index: 6;
+    opacity: 0;
+    height: 0px;
+}
+
+#side-bar-close {
+    width: 150px;
+    z-index: 5;
+    
+    box-shadow: 0px 0px 10px 0.2px grey;
+}
+
+.side-bar-small-but {
+    position: absolute;
+    width: 34.4;
+    color: white;
+        
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+#logo-small {
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    width: 116;
+    right: 17;
+    top: 167;
+    
+    color: white;
+    font-size: 90px;
+}
+
+#side-bar-choose-but {
+    z-index: 4;
+    position: fixed;
+    width: 40;
+    height: 37.6;
+    right: 55px;
+    top: 45;
+    
+    cursor: pointer;
+    border: none;
+    background: none;
+    background-image: url(pics/Align%20Justify%20Icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.small-note {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    width: 80%;
+    right: 10%;
+    text-align: center;
+    font-size: 12pt;
+    color: white;
+    top: 600px;
+}
+
+#small_buts_div {
+    position: absolute;
+    right: 57.8;
+    top: 440;
+    width:  34.4;
+    height: 154.1;
+}
+
+#people {
+    top: 128.3;
+    height: 25.8;
+    
+    background-image: url(pics/people-icon_2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+}
+
+#heart {
+    top: 63.6;
+    height: 32.5;
+    
+    background-image: url(pics/heart-icon_2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+}
+
+#rocket {
+    top: 0;
+    height: 34.9;
+    
+    background-image: url(pics/rocket-icon_2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+}
+
+.eng_txt {
+    font-family: 'Lato', sans-serif;
+}
+
+#content-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 150px);   
+}
+
+#content {
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    background-color: rgb(242,242,242);
+    
+    box-shadow: 0px 0px 14px 0.2px grey;
+}
+
+#header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: #686868;
+    width: calc(100% - 150px);
+    height: 140;
+}
+
+#people:hover {
+    animation: people_ani 4s;
+}
+
+@keyframes rocket_ani {
+    0% { background-image: url(pics/rocket-icon_2.png); color: white;}
+    50%   { background-image: url(pics/rocket-icon-hover.png); color: rgb(50,49,50);;}
+    100% { background-image: url(pics/rocket-icon_2.png); color: white; }
+}
+
+@keyframes people_ani {
+    0% { background-image: url(pics/people-icon_2.png); color: white;}
+    50%   { background-image: url(pics/people-icon-hover.png); color: rgb(50,49,50);}
+    100% { background-image: url(pics/people-icon_2.png);color: white;}
+}
+
+@keyframes heart_ani {
+    0% { background-image: url(pics/heart-icon_2.png); color: white;}
+    50%   { background-image: url(pics/heart-icon-hover.png); color: rgb(50,49,50);;}
+    100% { background-image: url(pics/heart-icon_2.png); color: white;}
+}
+#rocket:hover {
+    animation: rocket_ani 4s;
+}
+
+#heart:hover {
+    animation: heart_ani 4s;
+}
+
+#logo-open {
+    position: absolute;
+    top: 60;
+    width: 80%;
+    right: 10%;
+    text-align: center;
+    
+    font-weight: 100;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 68pt;
+    color: rgb(50,49,50);
+}
+
+#slogen {
+    position: absolute;
+    top: 250px;
+    font-size: 24pt;
+    width: 100%;
+    text-align: center;
+    color: rgb(50,49,50);
+    font-weight: 700;
+}
+
+.side-bar-big-but {
+    position: absolute;
+    width: 280px;
+    color: white;
+        
+    cursor: pointer;
+    border: none;
+    background: none;
+    
+    font-size: 28pt;
+    text-align: right;
+    margin-top: 2px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+}
+
+#big-buts-div {
+    position: absolute;
+    top: 428;
+    right: 25;
+}
+
+#side-bar-footer {
+    position: absolute;
+    top: 850;
+    width: 100%;
+    color: rgb(50,49,50);
+}
+
+.big-links {
+    float: right;
+    position: relative;
+    font-size: 18pt;
+    width: 100%;
+    text-align: center;
+}
+
+#people-big {
+    animation: people_ani 4s;
+}
+
+.con-box {
+    width: calc(50% - 40px);
+    float: right;
+    margin: 30 20;
+    border-radius: 40px;
+    background: white;
+    box-shadow: 0px 0px 10px 3px Gainsboro;
+    
+    overflow: hidden;
+}
+
+#positive-graph {
+    height: 600px;
+    overflow: hidden;
+}
+
+
+
+#most-used-words {
+    height: 600px;
+    color: #686868;
+}
+
+#most-used-big-header {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40pt;
+    color: #ffa510;
+    margin-bottom: 0;
+}
+
+#most-used-p {
+    text-align: center;
+    font-size: 20pt;
+    padding: 0;
+    margin-top: 0;
+}
+
+.most-used-word-element {
+    text-align: center;
+    margin: 10;
+    height: 55;
+    width: calc(100% - 20px);
+    overflow: hidden;
+}
+
+#word-1-in-list {
+}
+
+.most-used-word {
+    padding-right: 30;
+}
+
+#most-used-ele-1 {
+    font-size: 38pt;
+}
+
+#most-used-ele-2 {
+    font-size: 34pt;
+}
+
+#most-used-ele-3 {
+    font-size: 30pt;
+}
+
+#most-used-ele-4 {
+    font-size: 26pt;
+}
+
+#most-used-ele-5 {
+    font-size: 22pt;
+}
+
+#artc-num {
+    color: #ffa510;
+}
+
+e#some-statics {
+    position: relative;
+    width: 90%;
+    right: 5%;
+    height: 100;
+}
+
+#our-statics {
+    Color: #686868;
+    height: 600;
+}
+
+#gif-scan {
+    background: rgb(247,247,247);
+    z-index: 2;
+    position: relative;
+    right: 10%;
+    width: 80%;
+    height: 240;
+    border: 2px solid #686868;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+#gif-frame {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+#many-scans {
+    position: relative;
+    width: 80%;
+    right: 10%;
+    text-align: center;
+    font-size:  21pt;
+}
+
+#scans-num {
+    color: rgb(130,180,214);
+    padding: 0 5;
+}
+
+#statics-headline {
+    text-align: center;
+    font-size: 22pt;
+}
+
+.statics-txt {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+#statics-1 {
+    font-size: 40pt;
+}
+
+#statics-2 {
+    font-size: 24pt;
+}
+
+#left-statics {
+    float: left;
+    border-right: 1.5px solid #686868;
+}
+
+#right-statics {
+    float: right;
+    border-left: 1.5px solid #686868;
+}
+
+#news-num {
+    color: #ffa510;
+}
+
+#statics-3 {
+    font-size: 40pt;
+}
+
+.statics-div {
+    margin: 0;
+    width: calc(50% - 1.5px);
+    margin-bottom: 30;
+}
+
+#statics-4 {
+    font-size: 24pt;
+}
+
+#scaners {
+    border-radius: 20px;
+    position: relative;
+    width: calc(80% - 40px); /*because of the margin*/
+    right: 10%;
+    padding: 0;
+}
+
+#all-scanners {
+    margin-top: -20;
+    text-align: center;
+    font-size: 16pt;
+}
+
+#footer {
+    background: rgb(242,242,242);
+    position: absolute;
+    width: 100%;
+}
+
+#footer-text {
+    position: absolute;
+    top: calc(100% - 80px);
+    color: white;
+    font-size: 16pt;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    z-index: 4;
+}
+
+#scanners-head {
+    margin-right: 20;
+    font-size: 24pt;
+    color: #686868;
+}
+
+.scanner_name {
+    cursor: pointer;
+    color: rgb(130,180,214);
+    padding: 0 6;
+}
+
+.scanner_name:hover {
+    color: #686868;
+    animation: scanner_name_ani 0.5s;
+}
+
+
+@keyframes scanner_name_ani {
+    from { color: rgb(130,180,214) }
+    to   { color: #686868}
+}
+
+#logo-big-div {
+    width: 330px;
+    position: absolute;
+    top: 15;
+    left: 50;
+}
+
+#header-p {
+    position: absolute;
+    right: 20;
+    top: 10;
+    font-size: 13pt;
+}
+
+.header-shit {
+    margin: 4;
+    font-size: 20pt;
+}
+
+.graph-head {
+    color: #ffa510;
+    font-size: 40pt;
+    margin-right: 20;
+}
+
+.graph-p {
+    
+    font-size: 18pt;
+    margin-top: -40;
+    margin-right: 20;
+    color: #686868;
+}
+
+#posi-graph-bold {
+    color: rgb(125,206,160);
+    font-weight: 700;
+}
+
+#negative-graph {
+    height: 600;
+}
+
+#nega-graph-bold {
+    color: firebrick;
+    font-weight: 700;
+}
+
+#logo-big-div:focus {
+    color: #686868;
+}
+
+#logo-link-a {
+    color: #686868;
+}
+
+
+
+
+
+#min-div {
+    position: absolute;
+}
+
+
+
+#min-content {
+    position: absolute;
+}
+
+
+
+
+
+#min-con {
+    display: block;
+    margin: 0 auto;
+}
+
+#follow {
+    z-index: 4;
+    background: red;
+    width: 100;
+    height: 100;
+    position: absolute;
+}
+
+#bg-div {
+    position: relative;
+    height: 100%;
+}
+
+#terms-but {
+    margin-top: 10;
+    float: right;
+    position: relative;
+    font-size: 14pt;
+    width: 100%;
+    text-align: center;
+}
+
+#speacial-thanks-but:hover {
+    cursor: pointer;
+    animation:  black_color_change 1.5s;
+    color: white;
+}
+
+#terms-but:hover {
+    cursor: pointer;
+    animation:  black_color_change 1.5s;
+    color: white;
+}
+
+#img-back-img {
+    width: 100%;
+
+}
+
+#about-seperator {
+    float: right;
+    width:  100%;
+    height: 400px;
+    overflow: hidden;
+    border: none;
+}
+
+#img-back-cover {
+    position: relative;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 1.0;
+    z-index: 3;
+}
+
+#about-us-link {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    
+    margin-top: 20px;
+}
+
+
+
+
+
+.graph_con {
+    position: relative;
+    width: 96%;
+    right: 2%;
+}
+
+#footer-img {
+    position: relative;
+    right: 0px;
+    width: calc(100% + 0px);
+    min-height: 80px;
+    background: rgb(242,242,242);
+}
+
+#fake-bg {
+    position: relative;
+    background: rgb(242,242,242);
+    top: -40px;
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+}
+
+#about-ud-link-div {
+    cursor: pointer;
+    position: relative;
+    top: calc(50% - 0px);
+    right: 40%;
+    
+    width: 20%;
+    color: white;
+    font-size: 24pt;
+    height: 80px;
+    padding: 0px; 0px;
+    
+    z-index: 10;
+    
+    background: #ffa510;
+    border: 3px solid #ffa510;
+    border-radius: 50px;
+}
+
+#about-ud-link-div:hover {
+    animation: about_ani 2s;
+}
+
+@keyframes about_ani{
+    0%{color: white; background: #ffa510;}
+    25%{color: #ffa510; background: white; top: calc(50% - 5px);}
+    75%{color: #ffa510; background: white; top: calc(50% + 5px);}
+    100%{color: white; background: #ffa510;}
+}
+
+#most-used-words-list {
+    margin-top: 50px;
+}
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(pics/antena-logo-left.png) center no-repeat #fff;
+    background-size: 50%;
+}
+
+#main_search_but {
+    cursor: pointer;
+    left: 60px;
+    position: absolute;
+    top: 0px;
+    background: none;
+    border: none;
+    
+    color: #ffa510;
+    font-size: 26pt;
+    height: 80px;
+}
+
+.con-box-search {
+    position: absolute;
+    top: -40px;
+    right: 150px;
+    
+    width: calc(100% - 300px);
+    height: 80px;
+    float: right;
+    border-radius: 40px;
+    background: rgb(242,242,242);
+    box-shadow: 0px 0px 10px 3px Gainsboro;
+}
+
+#search-div-close-but {
+    cursor: default;
+    position: relative;
+    right: 100px;
+    top: 50px;
+    width: 50px;
+    height: 50px;
+    background: black;
+    font-size: 12pt;
+}
+
+#main_search_but:hover {
+    color: #686868;
+}
+
+#search_input {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    height: 56px;
+    width: calc(100% - 200px);
+    
+    padding: 10px 20px;
+    
+    background: white;
+    border-radius: 50px;
+    border: none;
+    
+    font-size: 20pt;
+    color: #686868;
+}
+
+#all_white_boxes {
+    position: relative;
+    top: 30px;
+    background-color: rgb(242,242,242);
+    z-index: 4;
+}
+
+#donate {
+    margin-top: 64px;
+}
+
+#hover-side-bar {
+    position: fixed;
+    right: 0;
+    background: none;
+    z-index: 7;
+    height: 100%;
+    width: 150px;
+}
+
+#big-circle {
+    background: white;
+    border-radius: 1000px;
+    height: 0px;
+    width: 0px;
+    
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+
+#antena_logo_first_letter {
+    color: white;
+}
+
+#antena_logo_name {
+    position: absolute;
+    right: 150px;
+    top: 130px;
+    color: #323132;
+    font-size: 40pt;
+}

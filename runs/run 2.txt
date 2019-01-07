@@ -1,0 +1,2433 @@
+﻿Python 3.6.3 (v3.6.3:2c5fed8, Oct  3 2017, 17:26:49) [MSC v.1900 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+ RESTART: C:\Users\dell\Documents\news project\Main files\clean_words\main_run.py 
+negative - work
+positive - work
+kikar got links
+maariv  got links
+calcal  got links
+ynet  got links
+israel_ha got links
+mako  got links
+walla  got links
+kan got links
+
+
+ another article
+posi
+nega
+negative_ratio 0.1095890410958904
+positive_ratio 0.03424657534246575
+positive_ratio 3.4246575342465753 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/2773368','walla','12/07/17:20:2017','00:20:00','146','16','5','0.1095890410958904','0.03424657534246575')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11448598130841121
+positive_ratio 0.053738317757009345
+positive_ratio 5.373831775700935 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117171','walla','12/07/17:20:2017','00:20:00','428','49','23','0.11448598130841121','0.053738317757009345')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14481185860889395
+positive_ratio 0.07069555302166476
+positive_ratio 7.069555302166477 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117124','walla','12/07/17:20:2017','00:20:00','877','127','62','0.14481185860889395','0.07069555302166476')
+
+
+ another article
+posi
+nega
+negative_ratio 0.10837438423645321
+positive_ratio 0.06896551724137931
+positive_ratio 6.896551724137931 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117216','walla','12/07/17:20:2017','00:20:00','203','22','14','0.10837438423645321','0.06896551724137931')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11448598130841121
+positive_ratio 0.053738317757009345
+positive_ratio 5.373831775700935 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117171','walla','12/07/17:20:2017','00:20:00','428','49','23','0.11448598130841121','0.053738317757009345')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1588785046728972
+positive_ratio 0.0529595015576324
+positive_ratio 5.29595015576324 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117180','walla','12/07/17:20:2017','00:20:00','321','51','17','0.1588785046728972','0.0529595015576324')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1348973607038123
+positive_ratio 0.07331378299120235
+positive_ratio 7.331378299120234 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116780','walla','12/07/17:20:2017','00:20:00','341','46','25','0.1348973607038123','0.07331378299120235')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1473429951690821
+positive_ratio 0.05555555555555555
+positive_ratio 5.555555555555555 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116744','walla','12/07/17:20:2017','00:20:00','414','61','23','0.1473429951690821','0.05555555555555555')
+
+
+ another article
+posi
+nega
+negative_ratio 0.15126050420168066
+positive_ratio 0.10084033613445378
+positive_ratio 10.084033613445378 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117061','walla','12/07/17:20:2017','00:20:00','238','36','24','0.15126050420168066','0.10084033613445378')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11432706222865413
+positive_ratio 0.06367583212735166
+positive_ratio 6.367583212735166 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117380','walla','12/07/17:20:2017','00:20:00','691','79','44','0.11432706222865413','0.06367583212735166')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12903225806451613
+positive_ratio 0.06451612903225806
+positive_ratio 6.451612903225806 %
+INSERT INTO artc VALUES ('https://news.walla.co.il/http://news.walla.co.il/item/2773368','walla','12/07/17:20:2017','00:20:00','31','4','2','0.12903225806451613','0.06451612903225806')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11612903225806452
+positive_ratio 0.05161290322580645
+positive_ratio 5.161290322580645 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117123','walla','12/07/17:20:2017','00:20:00','310','36','16','0.11612903225806452','0.05161290322580645')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13259668508287292
+positive_ratio 0.0718232044198895
+positive_ratio 7.18232044198895 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117091','walla','12/07/17:20:2017','00:20:00','362','48','26','0.13259668508287292','0.0718232044198895')
+
+
+ another article
+posi
+nega
+negative_ratio 0.10305343511450382
+positive_ratio 0.03816793893129771
+positive_ratio 3.816793893129771 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117112','walla','12/07/17:20:2017','00:20:00','262','27','10','0.10305343511450382','0.03816793893129771')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11835506519558676
+positive_ratio 0.06619859578736209
+positive_ratio 6.619859578736208 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117408','walla','12/07/17:20:2017','00:20:00','997','118','66','0.11835506519558676','0.06619859578736209')
+
+
+ another article
+posi
+nega
+negative_ratio 0.135678391959799
+positive_ratio 0.04773869346733668
+positive_ratio 4.773869346733668 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117406','walla','12/07/17:20:2017','00:20:00','398','54','19','0.135678391959799','0.04773869346733668')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12188365650969529
+positive_ratio 0.05955678670360111
+positive_ratio 5.955678670360111 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117367','walla','12/07/17:20:2017','00:20:00','722','88','43','0.12188365650969529','0.05955678670360111')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1468682505399568
+positive_ratio 0.04535637149028078
+positive_ratio 4.535637149028077 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117427','walla','12/07/17:20:2017','00:20:00','463','68','21','0.1468682505399568','0.04535637149028078')
+
+
+ another article
+posi
+nega
+negative_ratio 0.09477124183006536
+positive_ratio 0.05555555555555555
+positive_ratio 5.555555555555555 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117445','walla','12/07/17:20:2017','00:20:00','306','29','17','0.09477124183006536','0.05555555555555555')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11764705882352941
+positive_ratio 0.0427807486631016
+positive_ratio 4.278074866310161 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117388','walla','12/07/17:20:2017','00:20:00','187','22','8','0.11764705882352941','0.0427807486631016')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1111111111111111
+positive_ratio 0.07407407407407407
+positive_ratio 7.407407407407407 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116830','walla','12/07/17:20:2017','00:20:00','27','3','2','0.1111111111111111','0.07407407407407407')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1471698113207547
+positive_ratio 0.04150943396226415
+positive_ratio 4.150943396226415 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117360','walla','12/07/17:20:2017','00:20:00','265','39','11','0.1471698113207547','0.04150943396226415')
+
+
+ another article
+posi
+nega
+negative_ratio 0.10199556541019955
+positive_ratio 0.031042128603104215
+positive_ratio 3.104212860310421 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117365','walla','12/07/17:20:2017','00:20:00','451','46','14','0.10199556541019955','0.031042128603104215')
+
+
+ another article
+posi
+nega
+negative_ratio 0.0933852140077821
+positive_ratio 0.0622568093385214
+positive_ratio 6.22568093385214 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117383','walla','12/07/17:20:2017','00:20:00','257','24','16','0.0933852140077821','0.0622568093385214')
+
+
+ another article
+posi
+nega
+negative_ratio 0.16470588235294117
+positive_ratio 0.043137254901960784
+positive_ratio 4.313725490196078 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117376','walla','12/07/17:20:2017','00:20:00','255','42','11','0.16470588235294117','0.043137254901960784')
+
+
+ another article
+posi
+nega
+negative_ratio 0.150278293135436
+positive_ratio 0.07050092764378478
+positive_ratio 7.050092764378479 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117234','walla','12/07/17:20:2017','00:20:00','539','81','38','0.150278293135436','0.07050092764378478')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11448598130841121
+positive_ratio 0.053738317757009345
+positive_ratio 5.373831775700935 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117171','walla','12/07/17:20:2017','00:20:00','428','49','23','0.11448598130841121','0.053738317757009345')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11282051282051282
+positive_ratio 0.03076923076923077
+positive_ratio 3.076923076923077 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117074','walla','12/07/17:20:2017','00:20:00','195','22','6','0.11282051282051282','0.03076923076923077')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1473429951690821
+positive_ratio 0.05555555555555555
+positive_ratio 5.555555555555555 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116744','walla','12/07/17:20:2017','00:20:00','414','61','23','0.1473429951690821','0.05555555555555555')
+
+
+ another article
+posi
+nega
+negative_ratio 0.10743801652892562
+positive_ratio 0.08099173553719008
+positive_ratio 8.099173553719009 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116799','walla','12/07/17:20:2017','00:20:00','605','65','49','0.10743801652892562','0.08099173553719008')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13662790697674418
+positive_ratio 0.06976744186046512
+positive_ratio 6.976744186046512 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117377','walla','12/07/17:20:2017','00:20:00','344','47','24','0.13662790697674418','0.06976744186046512')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13170731707317074
+positive_ratio 0.06829268292682927
+positive_ratio 6.829268292682927 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117254','walla','12/07/17:20:2017','00:20:00','205','27','14','0.13170731707317074','0.06829268292682927')
+
+
+ another article
+posi
+nega
+negative_ratio 0.18206521739130435
+positive_ratio 0.08695652173913043
+positive_ratio 8.695652173913043 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117165','walla','12/07/17:20:2017','00:20:00','368','67','32','0.18206521739130435','0.08695652173913043')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14481185860889395
+positive_ratio 0.07069555302166476
+positive_ratio 7.069555302166477 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117124','walla','12/07/17:20:2017','00:20:00','877','127','62','0.14481185860889395','0.07069555302166476')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14516129032258066
+positive_ratio 0.06451612903225806
+positive_ratio 6.451612903225806 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117025','walla','12/07/17:20:2017','00:20:00','930','135','60','0.14516129032258066','0.06451612903225806')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1588785046728972
+positive_ratio 0.0529595015576324
+positive_ratio 5.29595015576324 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117180','walla','12/07/17:20:2017','00:20:00','321','51','17','0.1588785046728972','0.0529595015576324')
+
+
+ another article
+posi
+nega
+negative_ratio 0.2037037037037037
+positive_ratio 0.07407407407407407
+positive_ratio 7.407407407407407 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117298','walla','12/07/17:20:2017','00:20:00','378','77','28','0.2037037037037037','0.07407407407407407')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1251303441084463
+positive_ratio 0.0740354535974974
+positive_ratio 7.40354535974974 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117207','walla','12/07/17:20:2017','00:20:00','959','120','71','0.1251303441084463','0.0740354535974974')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14884979702300405
+positive_ratio 0.05953991880920163
+positive_ratio 5.953991880920162 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117288','walla','12/07/17:20:2017','00:20:00','739','110','44','0.14884979702300405','0.05953991880920163')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12077294685990338
+positive_ratio 0.07004830917874397
+positive_ratio 7.004830917874396 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117256','walla','12/07/17:20:2017','00:20:00','414','50','29','0.12077294685990338','0.07004830917874397')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14232209737827714
+positive_ratio 0.056179775280898875
+positive_ratio 5.617977528089888 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117353','walla','12/07/17:20:2017','00:20:00','267','38','15','0.14232209737827714','0.056179775280898875')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1593625498007968
+positive_ratio 0.08764940239043825
+positive_ratio 8.764940239043824 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117338','walla','12/07/17:20:2017','00:20:00','251','40','22','0.1593625498007968','0.08764940239043825')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12531328320802004
+positive_ratio 0.08771929824561403
+positive_ratio 8.771929824561404 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117333','walla','12/07/17:20:2017','00:20:00','399','50','35','0.12531328320802004','0.08771929824561403')
+
+
+ another article
+posi
+nega
+negative_ratio 0.17793594306049823
+positive_ratio 0.0498220640569395
+positive_ratio 4.98220640569395 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117276','walla','12/07/17:20:2017','00:20:00','281','50','14','0.17793594306049823','0.0498220640569395')
+
+
+ another article
+posi
+nega
+negative_ratio 0.116
+positive_ratio 0.048
+positive_ratio 4.8 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117251','walla','12/07/17:20:2017','00:20:00','250','29','12','0.116','0.048')
+
+
+ another article
+posi
+nega
+negative_ratio 0.10584958217270195
+positive_ratio 0.06267409470752089
+positive_ratio 6.2674094707520895 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117134','walla','12/07/17:20:2017','00:20:00','718','76','45','0.10584958217270195','0.06267409470752089')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12442396313364056
+positive_ratio 0.04838709677419355
+positive_ratio 4.838709677419355 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116489','walla','12/07/17:20:2017','00:20:00','434','54','21','0.12442396313364056','0.04838709677419355')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1350210970464135
+positive_ratio 0.08438818565400844
+positive_ratio 8.438818565400844 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116407','walla','12/07/17:20:2017','00:20:00','237','32','20','0.1350210970464135','0.08438818565400844')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13432835820895522
+positive_ratio 0.06467661691542288
+positive_ratio 6.467661691542289 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3113131','walla','12/07/17:20:2017','00:20:00','201','27','13','0.13432835820895522','0.06467661691542288')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12365591397849462
+positive_ratio 0.07526881720430108
+positive_ratio 7.526881720430108 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3112201','walla','12/07/17:20:2017','00:20:00','186','23','14','0.12365591397849462','0.07526881720430108')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1419141914191419
+positive_ratio 0.0462046204620462
+positive_ratio 4.62046204620462 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3117226','walla','12/07/17:20:2017','00:20:00','303','43','14','0.1419141914191419','0.0462046204620462')
+
+
+ another article
+posi
+nega
+negative_ratio 0.21031746031746032
+positive_ratio 0.0873015873015873
+positive_ratio 8.73015873015873 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116644','walla','12/07/17:20:2017','00:20:00','252','53','22','0.21031746031746032','0.0873015873015873')
+
+
+ another article
+posi
+nega
+negative_ratio 0.21105527638190955
+positive_ratio 0.07035175879396985
+positive_ratio 7.035175879396985 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116882','walla','12/07/17:20:2017','00:20:00','199','42','14','0.21105527638190955','0.07035175879396985')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11170212765957446
+positive_ratio 0.05851063829787234
+positive_ratio 5.851063829787234 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116385','walla','12/07/17:20:2017','00:20:00','188','21','11','0.11170212765957446','0.05851063829787234')
+
+
+ another article
+posi
+nega
+negative_ratio 0.15053763440860216
+positive_ratio 0.053763440860215055
+positive_ratio 5.376344086021505 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116681','walla','12/07/17:20:2017','00:20:00','186','28','10','0.15053763440860216','0.053763440860215055')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13670886075949368
+positive_ratio 0.04810126582278481
+positive_ratio 4.810126582278481 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116926','walla','12/07/17:20:2017','00:20:00','395','54','19','0.13670886075949368','0.04810126582278481')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13812154696132597
+positive_ratio 0.06906077348066299
+positive_ratio 6.906077348066298 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13740458015267176
+positive_ratio 0.06870229007633588
+positive_ratio 6.870229007633588 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13740458015267176
+positive_ratio 0.06870229007633588
+positive_ratio 6.870229007633588 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13740458015267176
+positive_ratio 0.06870229007633588
+positive_ratio 6.870229007633588 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.145985401459854
+positive_ratio 0.058394160583941604
+positive_ratio 5.839416058394161 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.145985401459854
+positive_ratio 0.058394160583941604
+positive_ratio 5.839416058394161 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14718162839248433
+positive_ratio 0.07515657620041753
+positive_ratio 7.515657620041754 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14718162839248433
+positive_ratio 0.07515657620041753
+positive_ratio 7.515657620041754 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.16846361185983827
+positive_ratio 0.07142857142857142
+positive_ratio 7.142857142857143 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.16846361185983827
+positive_ratio 0.07142857142857142
+positive_ratio 7.142857142857143 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1941747572815534
+positive_ratio 0.02912621359223301
+positive_ratio 2.912621359223301 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1941747572815534
+positive_ratio 0.02912621359223301
+positive_ratio 2.912621359223301 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.17592592592592593
+positive_ratio 0.06481481481481481
+positive_ratio 6.481481481481482 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.17592592592592593
+positive_ratio 0.06481481481481481
+positive_ratio 6.481481481481482 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.17592592592592593
+positive_ratio 0.06481481481481481
+positive_ratio 6.481481481481482 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13822894168466524
+positive_ratio 0.028077753779697623
+positive_ratio 2.8077753779697625 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13822894168466524
+positive_ratio 0.028077753779697623
+positive_ratio 2.8077753779697625 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13822894168466524
+positive_ratio 0.028077753779697623
+positive_ratio 2.8077753779697625 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.17034700315457413
+positive_ratio 0.04416403785488959
+positive_ratio 4.416403785488959 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.17034700315457413
+positive_ratio 0.04416403785488959
+positive_ratio 4.416403785488959 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.17034700315457413
+positive_ratio 0.04416403785488959
+positive_ratio 4.416403785488959 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1373873873873874
+positive_ratio 0.07657657657657657
+positive_ratio 7.657657657657658 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1373873873873874
+positive_ratio 0.07657657657657657
+positive_ratio 7.657657657657658 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13744075829383887
+positive_ratio 0.06635071090047394
+positive_ratio 6.6350710900473935 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13744075829383887
+positive_ratio 0.06635071090047394
+positive_ratio 6.6350710900473935 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13233082706766916
+positive_ratio 0.07518796992481203
+positive_ratio 7.518796992481203 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.0
+positive_ratio 0.0
+positive_ratio 0.0 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13681102362204725
+positive_ratio 0.06791338582677166
+positive_ratio 6.791338582677166 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14423076923076922
+positive_ratio 0.07692307692307693
+positive_ratio 7.6923076923076925 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.08227848101265822
+positive_ratio 0.0759493670886076
+positive_ratio 7.594936708860759 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14066496163682865
+positive_ratio 0.06649616368286446
+positive_ratio 6.649616368286445 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.17462932454695224
+positive_ratio 0.060955518945634266
+positive_ratio 6.095551894563426 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.20833333333333334
+positive_ratio 0.14583333333333334
+positive_ratio 14.583333333333334 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.20833333333333334
+positive_ratio 0.14583333333333334
+positive_ratio 14.583333333333334 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12025316455696203
+positive_ratio 0.04430379746835443
+positive_ratio 4.430379746835443 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12025316455696203
+positive_ratio 0.04430379746835443
+positive_ratio 4.430379746835443 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.16831683168316833
+positive_ratio 0.039603960396039604
+positive_ratio 3.9603960396039604 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12849162011173185
+positive_ratio 0.04189944134078212
+positive_ratio 4.189944134078212 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.2037914691943128
+positive_ratio 0.052132701421800945
+positive_ratio 5.213270142180095 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.23809523809523808
+positive_ratio 0.03571428571428571
+positive_ratio 3.5714285714285716 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12738853503184713
+positive_ratio 0.07006369426751592
+positive_ratio 7.006369426751593 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14602346805736635
+positive_ratio 0.041720990873533245
+positive_ratio 4.172099087353325 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.17142857142857143
+positive_ratio 0.09682539682539683
+positive_ratio 9.682539682539682 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.17142857142857143
+positive_ratio 0.09682539682539683
+positive_ratio 9.682539682539682 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.09944751381215469
+positive_ratio 0.03314917127071823
+positive_ratio 3.314917127071823 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.09944751381215469
+positive_ratio 0.03314917127071823
+positive_ratio 3.314917127071823 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1476923076923077
+positive_ratio 0.04
+positive_ratio 4.0 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14601769911504425
+positive_ratio 0.0752212389380531
+positive_ratio 7.522123893805309 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1506849315068493
+positive_ratio 0.04794520547945205
+positive_ratio 4.794520547945205 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1377245508982036
+positive_ratio 0.06387225548902195
+positive_ratio 6.387225548902196 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.15384615384615385
+positive_ratio 0.038461538461538464
+positive_ratio 3.8461538461538463 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11347517730496454
+positive_ratio 0.05673758865248227
+positive_ratio 5.673758865248227 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11643835616438356
+positive_ratio 0.07534246575342465
+positive_ratio 7.534246575342466 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11643835616438356
+positive_ratio 0.07534246575342465
+positive_ratio 7.534246575342466 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1223021582733813
+positive_ratio 0.02877697841726619
+positive_ratio 2.8776978417266186 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1223021582733813
+positive_ratio 0.02877697841726619
+positive_ratio 2.8776978417266186 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12103174603174603
+positive_ratio 0.07142857142857142
+positive_ratio 7.142857142857143 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1437908496732026
+positive_ratio 0.0718954248366013
+positive_ratio 7.189542483660131 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1865671641791045
+positive_ratio 0.04664179104477612
+positive_ratio 4.664179104477612 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1808855291576674
+positive_ratio 0.058855291576673865
+positive_ratio 5.885529157667387 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.15672178289000718
+positive_ratio 0.04960460100647016
+positive_ratio 4.960460100647016 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13192419825072887
+positive_ratio 0.0597667638483965
+positive_ratio 5.97667638483965 %
+INSERT INTO artc VALUES ('https://news.walla.co.il//item/3116278','walla','12/07/17:20:2017','00:20:00','362','50','25','0.13812154696132597','0.06906077348066299')
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+negative_ratio 0.11667631731325999
+positive_ratio 0.05500868558193399
+positive_ratio 5.500868558193399 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.11667631731325999
+positive_ratio 0.05500868558193399
+positive_ratio 5.500868558193399 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.11667631731325999
+positive_ratio 0.05500868558193399
+positive_ratio 5.500868558193399 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.16494845360824742
+positive_ratio 0.06529209621993128
+positive_ratio 6.529209621993127 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.16494845360824742
+positive_ratio 0.06529209621993128
+positive_ratio 6.529209621993127 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.15053763440860216
+positive_ratio 0.07526881720430108
+positive_ratio 7.526881720430108 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.15053763440860216
+positive_ratio 0.07526881720430108
+positive_ratio 7.526881720430108 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.15053763440860216
+positive_ratio 0.07526881720430108
+positive_ratio 7.526881720430108 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.12195121951219512
+positive_ratio 0.04065040650406504
+positive_ratio 4.065040650406504 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.12195121951219512
+positive_ratio 0.04065040650406504
+positive_ratio 4.065040650406504 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.12195121951219512
+positive_ratio 0.04065040650406504
+positive_ratio 4.065040650406504 %
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+negative_ratio 0.1221476510067114
+positive_ratio 0.0738255033557047
+positive_ratio 7.382550335570469 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.1221476510067114
+positive_ratio 0.0738255033557047
+positive_ratio 7.382550335570469 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.1221476510067114
+positive_ratio 0.0738255033557047
+positive_ratio 7.382550335570469 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.14942528735632185
+positive_ratio 0.04367816091954023
+positive_ratio 4.367816091954023 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.14942528735632185
+positive_ratio 0.04367816091954023
+positive_ratio 4.367816091954023 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.14942528735632185
+positive_ratio 0.04367816091954023
+positive_ratio 4.367816091954023 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.10843373493975904
+positive_ratio 0.0783132530120482
+positive_ratio 7.831325301204819 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.10843373493975904
+positive_ratio 0.0783132530120482
+positive_ratio 7.831325301204819 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.10843373493975904
+positive_ratio 0.0783132530120482
+positive_ratio 7.831325301204819 %
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+negative_ratio 0.1354723707664884
+positive_ratio 0.0481283422459893
+positive_ratio 4.81283422459893 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.1354723707664884
+positive_ratio 0.0481283422459893
+positive_ratio 4.81283422459893 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.1354723707664884
+positive_ratio 0.0481283422459893
+positive_ratio 4.81283422459893 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.1354723707664884
+positive_ratio 0.0481283422459893
+positive_ratio 4.81283422459893 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.13574660633484162
+positive_ratio 0.06787330316742081
+positive_ratio 6.787330316742081 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.13574660633484162
+positive_ratio 0.06787330316742081
+positive_ratio 6.787330316742081 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.13574660633484162
+positive_ratio 0.06787330316742081
+positive_ratio 6.787330316742081 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.11676646706586827
+positive_ratio 0.04491017964071856
+positive_ratio 4.491017964071856 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.11676646706586827
+positive_ratio 0.04491017964071856
+positive_ratio 4.491017964071856 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.11676646706586827
+positive_ratio 0.04491017964071856
+positive_ratio 4.491017964071856 %
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+negative_ratio 0.15269461077844312
+positive_ratio 0.05389221556886228
+positive_ratio 5.389221556886228 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.15269461077844312
+positive_ratio 0.05389221556886228
+positive_ratio 5.389221556886228 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.15269461077844312
+positive_ratio 0.05389221556886228
+positive_ratio 5.389221556886228 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.15269461077844312
+positive_ratio 0.05389221556886228
+positive_ratio 5.389221556886228 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.12807881773399016
+positive_ratio 0.034482758620689655
+positive_ratio 3.4482758620689653 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.12807881773399016
+positive_ratio 0.034482758620689655
+positive_ratio 3.4482758620689653 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.12807881773399016
+positive_ratio 0.034482758620689655
+positive_ratio 3.4482758620689653 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.12807881773399016
+positive_ratio 0.034482758620689655
+positive_ratio 3.4482758620689653 %
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+negative_ratio 0.1566265060240964
+positive_ratio 0.06827309236947791
+positive_ratio 6.827309236947791 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.1566265060240964
+positive_ratio 0.06827309236947791
+positive_ratio 6.827309236947791 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.1566265060240964
+positive_ratio 0.06827309236947791
+positive_ratio 6.827309236947791 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.0945273631840796
+positive_ratio 0.05472636815920398
+positive_ratio 5.472636815920398 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.0945273631840796
+positive_ratio 0.05472636815920398
+positive_ratio 5.472636815920398 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.0945273631840796
+positive_ratio 0.05472636815920398
+positive_ratio 5.472636815920398 %
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+negative_ratio 0.14166666666666666
+positive_ratio 0.075
+positive_ratio 7.5 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.14166666666666666
+positive_ratio 0.075
+positive_ratio 7.5 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.14166666666666666
+positive_ratio 0.075
+positive_ratio 7.5 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.11818181818181818
+positive_ratio 0.05
+positive_ratio 5.0 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.11818181818181818
+positive_ratio 0.05
+positive_ratio 5.0 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.11818181818181818
+positive_ratio 0.05
+positive_ratio 5.0 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.11818181818181818
+positive_ratio 0.05
+positive_ratio 5.0 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.11458333333333333
+positive_ratio 0.020833333333333332
+positive_ratio 2.0833333333333335 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.11458333333333333
+positive_ratio 0.020833333333333332
+positive_ratio 2.0833333333333335 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.11458333333333333
+positive_ratio 0.020833333333333332
+positive_ratio 2.0833333333333335 %
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+negative_ratio 0.16166281755196305
+positive_ratio 0.04387990762124711
+positive_ratio 4.387990762124711 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.16166281755196305
+positive_ratio 0.04387990762124711
+positive_ratio 4.387990762124711 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.16166281755196305
+positive_ratio 0.04387990762124711
+positive_ratio 4.387990762124711 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.14583333333333334
+positive_ratio 0.08680555555555555
+positive_ratio 8.680555555555555 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.14583333333333334
+positive_ratio 0.08680555555555555
+positive_ratio 8.680555555555555 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.14583333333333334
+positive_ratio 0.08680555555555555
+positive_ratio 8.680555555555555 %
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+negative_ratio 0.12903225806451613
+positive_ratio 0.04032258064516129
+positive_ratio 4.032258064516129 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.12903225806451613
+positive_ratio 0.04032258064516129
+positive_ratio 4.032258064516129 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.12903225806451613
+positive_ratio 0.04032258064516129
+positive_ratio 4.032258064516129 %
+
+
+ another article
+posi
+nega
+negative_ratio 0.12903225806451613
+positive_ratio 0.04032258064516129
+positive_ratio 4.032258064516129 %
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+
+
+ another article
+posi
+nega
+negative_ratio 0.19458762886597938
+positive_ratio 0.05670103092783505
+positive_ratio 5.670103092783505 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726615,00.html','calcalist','12/07/17:20:2017','00:20:00','776','151','44','0.19458762886597938','0.05670103092783505')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12464589235127478
+positive_ratio 0.0339943342776204
+positive_ratio 3.3994334277620397 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726786,00.html','calcalist','12/07/17:20:2017','00:20:00','353','44','12','0.12464589235127478','0.0339943342776204')
+
+
+ another article
+posi
+nega
+negative_ratio 0.15898825654923215
+positive_ratio 0.08491418247515808
+positive_ratio 8.491418247515808 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/internet/articles/0,7340,L-3726472,00.html','calcalist','12/07/17:20:2017','00:20:00','1107','176','94','0.15898825654923215','0.08491418247515808')
+
+
+ another article
+posi
+nega
+negative_ratio 0.119281045751634
+positive_ratio 0.058823529411764705
+positive_ratio 5.882352941176471 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/markets/articles/0,7340,L-3726759,00.html','calcalist','12/07/17:20:2017','00:20:00','612','73','36','0.119281045751634','0.058823529411764705')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11304347826086956
+positive_ratio 0.05217391304347826
+positive_ratio 5.217391304347826 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3725609,00.html','calcalist','12/07/17:20:2017','00:20:00','115','13','6','0.11304347826086956','0.05217391304347826')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14634146341463414
+positive_ratio 0.056910569105691054
+positive_ratio 5.691056910569106 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3725052,00.html','calcalist','12/07/17:20:2017','00:20:00','123','18','7','0.14634146341463414','0.056910569105691054')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11083123425692695
+positive_ratio 0.07052896725440806
+positive_ratio 7.052896725440806 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/real_estate/articles/0,7340,L-3726792,00.html','calcalist','12/07/17:20:2017','00:20:00','397','44','28','0.11083123425692695','0.07052896725440806')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12269938650306748
+positive_ratio 0.05521472392638037
+positive_ratio 5.521472392638037 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3722543,00.html','calcalist','12/07/17:20:2017','00:20:00','163','20','9','0.12269938650306748','0.05521472392638037')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11871227364185111
+positive_ratio 0.056338028169014086
+positive_ratio 5.633802816901408 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726619,00.html','calcalist','12/07/17:20:2017','00:20:00','497','59','28','0.11871227364185111','0.056338028169014086')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1184573002754821
+positive_ratio 0.05096418732782369
+positive_ratio 5.096418732782369 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726822,00.html','calcalist','12/07/17:20:2017','00:20:00','726','86','37','0.1184573002754821','0.05096418732782369')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13225806451612904
+positive_ratio 0.04838709677419355
+positive_ratio 4.838709677419355 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726843,00.html','calcalist','12/07/17:20:2017','00:20:00','310','41','15','0.13225806451612904','0.04838709677419355')
+
+
+ another article
+posi
+nega
+negative_ratio 0.0954653937947494
+positive_ratio 0.05489260143198091
+positive_ratio 5.4892601431980905 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726738,00.html','calcalist','12/07/17:20:2017','00:20:00','419','40','23','0.0954653937947494','0.05489260143198091')
+
+
+ another article
+posi
+nega
+negative_ratio 0.09178743961352658
+positive_ratio 0.043478260869565216
+positive_ratio 4.3478260869565215 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/world/articles/0,7340,L-3726788,00.html','calcalist','12/07/17:20:2017','00:20:00','207','19','9','0.09178743961352658','0.043478260869565216')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12385321100917432
+positive_ratio 0.0389908256880734
+positive_ratio 3.8990825688073394 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726600,00.html','calcalist','12/07/17:20:2017','00:20:00','436','54','17','0.12385321100917432','0.0389908256880734')
+
+
+ another article
+posi
+nega
+negative_ratio 0.15227272727272728
+positive_ratio 0.04318181818181818
+positive_ratio 4.318181818181818 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/marketing/articles/0,7340,L-3726768,00.html','calcalist','12/07/17:20:2017','00:20:00','440','67','19','0.15227272727272728','0.04318181818181818')
+
+
+ another article
+posi
+nega
+negative_ratio 0.09406952965235174
+positive_ratio 0.06748466257668712
+positive_ratio 6.748466257668712 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726784,00.html','calcalist','12/07/17:20:2017','00:20:00','489','46','33','0.09406952965235174','0.06748466257668712')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13428571428571429
+positive_ratio 0.06571428571428571
+positive_ratio 6.571428571428571 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/world/articles/0,7340,L-3726808,00.html','calcalist','12/07/17:20:2017','00:20:00','350','47','23','0.13428571428571429','0.06571428571428571')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1093951093951094
+positive_ratio 0.06177606177606178
+positive_ratio 6.177606177606178 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/markets/articles/0,7340,L-3726681,00.html','calcalist','12/07/17:20:2017','00:20:00','777','85','48','0.1093951093951094','0.06177606177606178')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14788732394366197
+positive_ratio 0.05457746478873239
+positive_ratio 5.457746478873239 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726761,00.html','calcalist','12/07/17:20:2017','00:20:00','1136','168','62','0.14788732394366197','0.05457746478873239')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1067193675889328
+positive_ratio 0.03557312252964427
+positive_ratio 3.5573122529644268 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/internet/articles/0,7340,L-3726816,00.html','calcalist','12/07/17:20:2017','00:20:00','253','27','9','0.1067193675889328','0.03557312252964427')
+
+
+ another article
+posi
+nega
+negative_ratio 0.16125836016844192
+positive_ratio 0.053009660639088435
+positive_ratio 5.300966063908843 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726214,00.html','calcalist','12/07/17:20:2017','00:20:00','4037','651','214','0.16125836016844192','0.053009660639088435')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13675213675213677
+positive_ratio 0.05128205128205128
+positive_ratio 5.128205128205129 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3723959,00.html','calcalist','12/07/17:20:2017','00:20:00','117','16','6','0.13675213675213677','0.05128205128205128')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11278195488721804
+positive_ratio 0.03007518796992481
+positive_ratio 3.007518796992481 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3721718,00.html','calcalist','12/07/17:20:2017','00:20:00','133','15','4','0.11278195488721804','0.03007518796992481')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11904761904761904
+positive_ratio 0.03571428571428571
+positive_ratio 3.5714285714285716 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/sport/articles/0,7340,L-3726360,00.html','calcalist','12/07/17:20:2017','00:20:00','252','30','9','0.11904761904761904','0.03571428571428571')
+
+
+ another article
+posi
+nega
+negative_ratio 0.15142857142857144
+positive_ratio 0.07714285714285714
+positive_ratio 7.714285714285714 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/sport/articles/0,7340,L-3726689,00.html','calcalist','12/07/17:20:2017','00:20:00','350','53','27','0.15142857142857144','0.07714285714285714')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11420204978038068
+positive_ratio 0.04978038067349927
+positive_ratio 4.978038067349927 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726746,00.html','calcalist','12/07/17:20:2017','00:20:00','683','78','34','0.11420204978038068','0.04978038067349927')
+
+
+ another article
+posi
+nega
+negative_ratio 0.16817359855334538
+positive_ratio 0.06238698010849909
+positive_ratio 6.23869801084991 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/sport/articles/0,7340,L-3726648,00.html','calcalist','12/07/17:20:2017','00:20:00','1106','186','69','0.16817359855334538','0.06238698010849909')
+
+
+ another article
+posi
+nega
+negative_ratio 0.15146579804560262
+positive_ratio 0.08957654723127036
+positive_ratio 8.957654723127035 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/sport/articles/0,7340,L-3726777,00.html','calcalist','12/07/17:20:2017','00:20:00','614','93','55','0.15146579804560262','0.08957654723127036')
+
+
+ another article
+posi
+nega
+negative_ratio 0.09774436090225563
+positive_ratio 0.045112781954887216
+positive_ratio 4.511278195488722 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/internet/articles/0,7340,L-3726781,00.html','calcalist','12/07/17:20:2017','00:20:00','266','26','12','0.09774436090225563','0.045112781954887216')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13989637305699482
+positive_ratio 0.06390328151986183
+positive_ratio 6.390328151986183 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/consumer/articles/0,7340,L-3726701,00.html','calcalist','12/07/17:20:2017','00:20:00','579','81','37','0.13989637305699482','0.06390328151986183')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11352657004830918
+positive_ratio 0.024154589371980676
+positive_ratio 2.4154589371980677 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726817,00.html','calcalist','12/07/17:20:2017','00:20:00','414','47','10','0.11352657004830918','0.024154589371980676')
+
+
+ another article
+posi
+nega
+negative_ratio 0.10941475826972011
+positive_ratio 0.061068702290076333
+positive_ratio 6.106870229007634 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726613,00.html','calcalist','12/07/17:20:2017','00:20:00','393','43','24','0.10941475826972011','0.061068702290076333')
+
+
+ another article
+posi
+nega
+negative_ratio 0.125
+positive_ratio 0.06418918918918919
+positive_ratio 6.418918918918919 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/internet/articles/0,7340,L-3726801,00.html','calcalist','12/07/17:20:2017','00:20:00','296','37','19','0.125','0.06418918918918919')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12203389830508475
+positive_ratio 0.04745762711864407
+positive_ratio 4.745762711864407 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/world/articles/0,7340,L-3726798,00.html','calcalist','12/07/17:20:2017','00:20:00','295','36','14','0.12203389830508475','0.04745762711864407')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14050303555941024
+positive_ratio 0.0598438855160451
+positive_ratio 5.98438855160451 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/internet/articles/0,7340,L-3726616,00.html','calcalist','12/07/17:20:2017','00:20:00','1153','162','69','0.14050303555941024','0.0598438855160451')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1234991423670669
+positive_ratio 0.051457975986277875
+positive_ratio 5.145797598627787 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726836,00.html','calcalist','12/07/17:20:2017','00:20:00','583','72','30','0.1234991423670669','0.051457975986277875')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13682678311499272
+positive_ratio 0.06550218340611354
+positive_ratio 6.550218340611353 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/world/articles/0,7340,L-3726828,00.html','calcalist','12/07/17:20:2017','00:20:00','687','94','45','0.13682678311499272','0.06550218340611354')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12389380530973451
+positive_ratio 0.05309734513274336
+positive_ratio 5.3097345132743365 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3721079,00.html','calcalist','12/07/17:20:2017','00:20:00','113','14','6','0.12389380530973451','0.05309734513274336')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1605080831408776
+positive_ratio 0.06581986143187067
+positive_ratio 6.581986143187067 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/consumer/articles/0,7340,L-3726695,00.html','calcalist','12/07/17:20:2017','00:20:00','866','139','57','0.1605080831408776','0.06581986143187067')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14615384615384616
+positive_ratio 0.07179487179487179
+positive_ratio 7.17948717948718 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/markets/articles/0,7340,L-3726800,00.html','calcalist','12/07/17:20:2017','00:20:00','390','57','28','0.14615384615384616','0.07179487179487179')
+
+
+ another article
+posi
+nega
+negative_ratio 0.16135458167330677
+positive_ratio 0.0796812749003984
+positive_ratio 7.968127490039841 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726520,00.html','calcalist','12/07/17:20:2017','00:20:00','1004','162','80','0.16135458167330677','0.0796812749003984')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14213197969543148
+positive_ratio 0.06091370558375635
+positive_ratio 6.091370558375634 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726820,00.html','calcalist','12/07/17:20:2017','00:20:00','197','28','12','0.14213197969543148','0.06091370558375635')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11740890688259109
+positive_ratio 0.03643724696356275
+positive_ratio 3.6437246963562755 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/real_estate/articles/0,7340,L-3726811,00.html','calcalist','12/07/17:20:2017','00:20:00','247','29','9','0.11740890688259109','0.03643724696356275')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13317757009345793
+positive_ratio 0.06074766355140187
+positive_ratio 6.074766355140187 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726810,00.html','calcalist','12/07/17:20:2017','00:20:00','428','57','26','0.13317757009345793','0.06074766355140187')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1111111111111111
+positive_ratio 0.049707602339181284
+positive_ratio 4.970760233918129 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/world/articles/0,7340,L-3726516,00.html','calcalist','12/07/17:20:2017','00:20:00','342','38','17','0.1111111111111111','0.049707602339181284')
+
+
+ another article
+posi
+nega
+negative_ratio 0.10909090909090909
+positive_ratio 0.02727272727272727
+positive_ratio 2.727272727272727 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3721232,00.html','calcalist','12/07/17:20:2017','00:20:00','110','12','3','0.10909090909090909','0.02727272727272727')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1456953642384106
+positive_ratio 0.08278145695364239
+positive_ratio 8.278145695364238 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/real_estate/articles/0,7340,L-3726646,00.html','calcalist','12/07/17:20:2017','00:20:00','302','44','25','0.1456953642384106','0.08278145695364239')
+
+
+ another article
+posi
+nega
+negative_ratio 0.13735558408215662
+positive_ratio 0.059050064184852376
+positive_ratio 5.905006418485238 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/internet/articles/0,7340,L-3726001,00.html','calcalist','12/07/17:20:2017','00:20:00','779','107','46','0.13735558408215662','0.059050064184852376')
+
+
+ another article
+posi
+nega
+negative_ratio 0.08771929824561403
+positive_ratio 0.02631578947368421
+positive_ratio 2.6315789473684212 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726664,00.html','calcalist','12/07/17:20:2017','00:20:00','114','10','3','0.08771929824561403','0.02631578947368421')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1316270566727605
+positive_ratio 0.06581352833638025
+positive_ratio 6.581352833638026 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/consumer/articles/0,7340,L-3726700,00.html','calcalist','12/07/17:20:2017','00:20:00','547','72','36','0.1316270566727605','0.06581352833638025')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11304347826086956
+positive_ratio 0.05217391304347826
+positive_ratio 5.217391304347826 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/world/articles/0,7340,L-3726796,00.html','calcalist','12/07/17:20:2017','00:20:00','115','13','6','0.11304347826086956','0.05217391304347826')
+
+
+ another article
+posi
+nega
+negative_ratio 0.15119760479041916
+positive_ratio 0.08083832335329341
+positive_ratio 8.083832335329342 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/markets/articles/0,7340,L-3726656,00.html','calcalist','12/07/17:20:2017','00:20:00','668','101','54','0.15119760479041916','0.08083832335329341')
+
+
+ another article
+posi
+nega
+negative_ratio 0.0959409594095941
+positive_ratio 0.04428044280442804
+positive_ratio 4.428044280442805 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726669,00.html','calcalist','12/07/17:20:2017','00:20:00','271','26','12','0.0959409594095941','0.04428044280442804')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1162280701754386
+positive_ratio 0.06578947368421052
+positive_ratio 6.578947368421052 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726293,00.html','calcalist','12/07/17:20:2017','00:20:00','456','53','30','0.1162280701754386','0.06578947368421052')
+
+
+ another article
+posi
+nega
+negative_ratio 0.10905730129390019
+positive_ratio 0.066543438077634
+positive_ratio 6.654343807763401 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/internet/articles/0,7340,L-3726830,00.html','calcalist','12/07/17:20:2017','00:20:00','541','59','36','0.10905730129390019','0.066543438077634')
+
+
+ another article
+posi
+nega
+negative_ratio 0.10699588477366255
+positive_ratio 0.051440329218107
+positive_ratio 5.1440329218107 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726535,00.html','calcalist','12/07/17:20:2017','00:20:00','486','52','25','0.10699588477366255','0.051440329218107')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14594594594594595
+positive_ratio 0.07297297297297298
+positive_ratio 7.297297297297297 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/money/articles/0,7340,L-3726782,00.html','calcalist','12/07/17:20:2017','00:20:00','370','54','27','0.14594594594594595','0.07297297297297298')
+
+
+ another article
+posi
+nega
+negative_ratio 0.12280701754385964
+positive_ratio 0.06140350877192982
+positive_ratio 6.140350877192983 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3723187,00.html','calcalist','12/07/17:20:2017','00:20:00','114','14','7','0.12280701754385964','0.06140350877192982')
+
+
+ another article
+posi
+nega
+negative_ratio 0.15670650730411687
+positive_ratio 0.0650730411686587
+positive_ratio 6.50730411686587 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/internet/articles/0,7340,L-3726660,00.html','calcalist','12/07/17:20:2017','00:20:00','753','118','49','0.15670650730411687','0.0650730411686587')
+
+
+ another article
+posi
+nega
+negative_ratio 0.09090909090909091
+positive_ratio 0.04242424242424243
+positive_ratio 4.242424242424242 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/internet/articles/0,7340,L-3726814,00.html','calcalist','12/07/17:20:2017','00:20:00','165','15','7','0.09090909090909091','0.04242424242424243')
+
+
+ another article
+posi
+nega
+negative_ratio 0.1160275319567355
+positive_ratio 0.07177974434611603
+positive_ratio 7.177974434611603 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/markets/articles/0,7340,L-3726679,00.html','calcalist','12/07/17:20:2017','00:20:00','1017','118','73','0.1160275319567355','0.07177974434611603')
+
+
+ another article
+posi
+nega
+negative_ratio 0.14130434782608695
+positive_ratio 0.050724637681159424
+positive_ratio 5.072463768115942 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/markets/articles/0,7340,L-3726752,00.html','calcalist','12/07/17:20:2017','00:20:00','276','39','14','0.14130434782608695','0.050724637681159424')
+
+
+ another article
+posi
+nega
+negative_ratio 0.15339578454332553
+positive_ratio 0.04215456674473068
+positive_ratio 4.215456674473068 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726754,00.html','calcalist','12/07/17:20:2017','00:20:00','854','131','36','0.15339578454332553','0.04215456674473068')
+
+
+ another article
+posi
+nega
+negative_ratio 0.10215053763440861
+positive_ratio 0.043010752688172046
+positive_ratio 4.301075268817204 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3726841,00.html','calcalist','12/07/17:20:2017','00:20:00','186','19','8','0.10215053763440861','0.043010752688172046')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11501210653753027
+positive_ratio 0.05447941888619855
+positive_ratio 5.447941888619854 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/real_estate/articles/0,7340,L-3726730,00.html','calcalist','12/07/17:20:2017','00:20:00','826','95','45','0.11501210653753027','0.05447941888619855')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11405835543766578
+positive_ratio 0.0610079575596817
+positive_ratio 6.10079575596817 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/money/articles/0,7340,L-3726845,00.html','calcalist','12/07/17:20:2017','00:20:00','377','43','23','0.11405835543766578','0.0610079575596817')
+
+
+ another article
+posi
+nega
+negative_ratio 0.11864406779661017
+positive_ratio 0.025423728813559324
+positive_ratio 2.542372881355932 %
+INSERT INTO artc VALUES ('https://www.calcalist.co.il/local/articles/0,7340,L-3722954,00.html','calcalist','12/07/17:20:2017','00:20:00','118','14','3','0.11864406779661017','0.025423728813559324')
+
+
+ another article
+נשיא ארצות הברית דונלד טראמפ הכריז הערב (רביעי) בוושינגטון על הכרה אמריקנית בירושלים כבירת ישראל. "אנו מכירים היום במובן מאליו - ירושלים היא בירת ישראל. זו הכרה במציאות, משהו שמוכרחים לעשות", הצהיר טראמפ בהודעה שמסר בבית הלבן. "במשך 20 שנים נשיאים קודמים הבטיחו לעשות זאת אך לא קיימו. כעת, החלטתי שזה הזמן". בנוסף, טראמפ הודיע כי הוא הנחה את צוותי משרד החוץ האמריקני להתחיל בהליכים להעברת השגרירות מתל אביב לירושלים."כשנכנסתי לתפקידי הבטחתי להביט בעיניים לאתגרים המורכבים ביותר ולהציג חשיבה מחודשת", אמר נשיא ארצות הברית בפתח דבריו. "לא נוכל לפתור את הבעיות באמצעות אותן הנחות כושלות וחזרה על אסטרטגיות מהעבר שלא הצליחו. ההצהרה שלי היום היא התחלתה של גישה חדשה כלפי הסכסוך הישראלי-פלסטיני". הנשיא האמריקני הוסיף כי אף על פי שקודמיו בתפקיד נמנעו מהכרה בירושלים והעברה של השגרירות, "הסירוב הזה לא קירב אותנו כלל להסכם שלום. לכן, החלטתי שזה הזמן להכיר בירושלים כבירת ישראל. זהו אינטרס אמריקני למען השלום"."בשנת 1995 הקונגרס קיבל החלטה שירושלים היא בירת ישראל. זה אושר גם בסנאט. במשך 20 שנה כל נשיא אמריקני סירב להעביר את השגרירות לירושלים או להכיר בירושלים כבירת ישראל", אמר טראמפ. "הנשיאים וויתרו על יישום ההחלטה כי חשבו שזה יקדם שלום, אך זה לא קרה. היום אני קורא למנהיגי האזור מכל העמים והדתות להצטרף אלינו במרדף אחר השלום".לצד זאת, טראמפ הדגיש כי "ארצות הברית אינה נוקטת היום עמדה כלפי פתרון קבע, כולל בסוגית הגבולות והריבונות. השאלות הללו תלויות בצדדים המעורבים. ארצות הברית עודנה מחויבת עמוקות להסכם שלום שיהיה מוסכם על שני הצדדים, ואני מתכוון לעשות כל שבכוחי לעזור להשיג הסדר כזה". הוא הצהיר על תמיכתו בפתרון שתי המדינות, "אם הוא יהיה מוסכם על שני הצדדים", והוסיף קריאה לישראל ולפלסטינים "לשמור בינתיים על הסטטוס-קוו באתרים הקדושים, כולל בהר הבית"."ירושלים היא היום, וחייבת להישאר, מקום בו יהודים מתפללים בכותל, נוצרים הולכים בדרכו של ישו ומוסלמים מתפללים במסגד אל-אקצא", הפציר נשיא ארצות הברית. לדבריו, "ישראל היא מדינה ריבונית עם הזכות לקבוע את בירתה. להכיר בכך זה תנאי הכרחי להשגת שלום. אין ספק שירושלים היא אחת הסוגיות הרגישות ביותר בדרך לשם".ראש הממשלה  בירך על הצהרת טראמפ ואמר כי "זהו יום היסטורי". לדבריו,"ההצהרה של נשיא ארצות הברית דונלד טראמפ היא אבן דרך חשובה בתולדות ירושלים. ירושלים היא בירתנו מזה 3,000 שנה. עכשיו באה הצהרתו ההיסטורית של הנשיא טראמפ המכירה בעובדות יסוד אלה". נשיא המדינה, ראובן ריבלין, בירך אף הוא על ההחלטה ואמר כי " אין מתנה יפה וראויה מזו בשנת ה-70 לישראל. ירושלים איננה ולעולם לא תהיה מכשול עבור החפצים בשלום".מנגד, יו"ר הרשות הפלסטינית תקף את דברי את טראמפ ואמר כי "הממשל האמריקני פועל בניגוד להחלטות האו"ם ולקונצנזוס הבינלאומי. צעדים אלה מסבכים את המאמצים להגשמת השלום. זה פרס לישראל על ההפרות שהיא מבצעת ועל מדיניות האפרטהייד שלה, ובא לשרת גורמים קיצוניים שרוצים לדרדר את האזור להסלמה".בעקבות ההצהרה של טראמפ, במערכת הביטחון בוחנים גם הערב צעדי כוננות לקראת הימים הבאים. "בשלב זה קיימת בכל מקרה כוננות שאינה מצריכה תגבור נוסף של כוחות גם בירושלים וגם בשטחי הגדה. מתקיימות הערכות מצב שוטפות ויש כוחות שהוגדרו בכוננות אם יהיה צורך בתגבור כוחות או בצעדים מיוחדים", אמר גורם ביטחוני.בשעות הלילה התקיימו הפגנות מחאה בכמה מוקדים נגד הצהרת טראמפ. כלי תקשורת פלסטיניים דיווחו כי כוחות צה"ל ירו לעבר מפגינים בחאן יונס, והפגנות נרשמו גם בגדה המערבית, שם קראו להשבית את הלימודים בבתי הספר. בעיר העתיקה בירושלים נערכה הפגנה גם כן, והאורות במסגד אל-אקצה כובו כאות מחאה. | جانب من تظاهرة غاضبة في مخيم الفوار جنوب  تنديدا بالإعتراف الأمريكي بالقدس عاصمة "لإسرائيل". 
+
+בעמאן בירת ירדן יצאו מאות בני אדם למחות נגד ההכרה בירושלים מול השגרירות האמריקנית. בטורקיה התקיימו צעדות מחאה באנקרה ובאיסטנבול, שכללו קריאות בגנות ישראל וארצות הברית. מדינות ערביות, בהן מצרים, ירדן וקטר פרסמו גינויים רשמיים להודעה של נשיא ארצות הברית.
+Traceback (most recent call last):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36-32\lib\site-packages\nltk\tokenize\__init__.py", line 128, in word_tokenize
+    sentences = [text] if preserve_line else sent_tokenize(text, language)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36-32\lib\site-packages\nltk\tokenize\__init__.py", line 95, in sent_tokenize
+    return tokenizer.tokenize(text)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36-32\lib\site-packages\nltk\tokenize\punkt.py", line 1237, in tokenize
+    return list(self.sentences_from_text(text, realign_boundaries))
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36-32\lib\site-packages\nltk\tokenize\punkt.py", line 1285, in sentences_from_text
+    return [text[s:e] for s, e in self.span_tokenize(text, realign_boundaries)]
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36-32\lib\site-packages\nltk\tokenize\punkt.py", line 1276, in span_tokenize
+    return [(sl.start, sl.stop) for sl in slices]
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36-32\lib\site-packages\nltk\tokenize\punkt.py", line 1276, in <listcomp>
+    return [(sl.start, sl.stop) for sl in slices]
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36-32\lib\site-packages\nltk\tokenize\punkt.py", line 1316, in _realign_boundaries
+    for sl1, sl2 in _pair_iter(slices):
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36-32\lib\site-packages\nltk\tokenize\punkt.py", line 312, in _pair_iter
+    prev = next(it)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python36-32\lib\site-packages\nltk\tokenize\punkt.py", line 1289, in _slices_from_text
+    for match in self._lang_vars.period_context_re().finditer(text):
+TypeError: expected string or bytes-like object
+>>> 

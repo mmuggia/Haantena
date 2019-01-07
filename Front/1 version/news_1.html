@@ -1,0 +1,332 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>האנטנה</title>
+        <link rel="shortcut icon" type="image/png" href="/pics/antena-ani-3.png"/>
+        <link rel="stylesheet" href="news_1_style.css">
+        <link href="https://fonts.googleapis.com/css?family=Alef:400,700|Work+Sans:400,700&amp;subset=hebrew" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="JS/Chart.js"></script>
+        <script src="JS/Chart.min.js"></script>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+                
+        <script>
+        $(window).load(function() {
+            // Animate loader off screen
+            $(".se-pre-con").fadeOut("slow");;
+        });
+            
+        $(document).ready(function(){           
+        
+            $("#side-bar-close").hover(handlerIn,handlerOut);
+            
+            function handlerIn() {
+                console.log("y")
+                $("#side-bar-close").animate({width: 330})
+                $("#side-bar-open").animate({opacity: 1})
+            }
+            
+            function handlerOut() {
+                console.log("h")
+                $("#side-bar-close").animate({width: 150})
+                $("#side-bar-open").animate({opacity: 0})
+                
+            }
+        });
+                                                  
+        </script>
+    </head>
+    
+    <body id="body">
+        
+        
+        <div id="big-circle"></div>
+        
+        <div class="se-pre-con"></div>
+        
+        
+        <button id="side-bar-choose-but" hidden=""></button>
+        <div class="side-bar" id="side-bar-close">
+            <img src="pics/antena-all-white.png" id="logo-small">
+            <div id="small_buts_div">
+                <button id="rocket" class="side-bar-small-but"></button>
+                <button id="heart" class="side-bar-small-but"></button>
+                <button id="people" class="side-bar-small-but" hidden=""></button>
+            </div>
+            <p class="small-note" hidden="">All Rights Bla Bla Bla</p>
+        </div>
+        
+        <div class="side-bar" id="side-bar-open">
+            
+<!--            <img src="pics/antena-logo-right-white.png" id="logo-open">
+            -->
+            
+            <p id="antena_logo_name"><span id="antena_logo_first_letter">ה</span>אנטנה</p>
+            <p id="slogen">חקר תקשורת עצמאי</p>
+            <div id="big-buts-div">
+                <a class="side-bar-big-but" href="/our-mission.html">המשימה שלנו</a>
+                <a class="side-bar-big-but" id="donate" href="/donate.html">תרמו לנו</a>
+                <button id="people" class="side-bar-big-but" hidden="">הצטרפו אלינו</button>
+            </div>
+            
+            <div id="side-bar-footer">
+                <a id="speacial-thanks-but" class="big-links" hidden="">תודות מיוחדות</a>
+                <a id="terms-but" class="small-links">תנאי שימוש</a>
+            </div>
+        </div>
+        
+        <div id="content-body">
+            <div id="header">
+                <a id="logo-link-a" href="/our_mission.html"><img src="pics/antena-logo-left.png" id="logo-big-div"></a>
+                <div id="header-p">
+                    <p class="header-shit"><span class="orange">האנטנה </span>היא תוכנה אוטומטית שסורקת את אתרי החדשות המרכזיים בישראל,</p>
+                    <p class="header-shit">מחפשת בהם דפוסי כתיבה ומציגה סטטיסטיקות <span class="orange">בזמן אמת</span></p>
+                    <p class="header-shit">על פי שיטת מחקר שפותחה על ידינו במהלך שנה של מחקר ופיתוח.</p>
+                </div>
+            </div>
+
+            <div id="content">
+                
+                <div class="con-box-search">
+                    <form id="search_form">
+                        <input id="search_input" placeholder="לאחר שנבסס את מאגר המידע שלנו יהיה ניתן לחפש סטטיסטיקות על פי מילות מפתח" type="text" name="word_search">
+                        <input id="main_search_but" type="button" onclick="form_send()" value="חיפוש">
+                    </form>
+                </div>
+                
+                <div id="all_white_boxes">
+                <div class="con-box" id="positive-graph">
+                    <h1 class="graph-head">כמה טוב לנו?</h1>
+                    <p class="graph-p">הגרף מציג את ממוצע היחס בין המילים<span id="posi-graph-bold"> החיוביות</span> בטקסט לשאר המילים</p>
+                    <div class="graph_con">
+                        <canvas id="posi_chart" width="400px" height="200px"></canvas>
+                    </div>
+                    <script>
+                        function posi_graph(){
+                        var ctx = document.getElementById("posi_chart");
+                        Chart.defaults.global.defaultFontColor = "#686868";
+                        Chart.defaults.global.defaultFontFamily	= "'Alef', sans-serif";
+                        Chart.defaults.global.defaultFontSize = 16;
+//                        Chart.defaults.global.cornerRadius = 10;
+                        Chart.defaults.global.hoverBorderColor = "pink";
+                        var posi_chart = new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: ["מעריב", "ישראל היום", "Mako", "וואלה!", "כלכליסט", "Ynet","NRG","כיכר השבת","גלובס","ממוצע"],
+                                datasets: [{
+                                    label: 'אחוז המילים החיוביות בטקסט',
+                                    data: [0.25, 0.3, 0.4, 0.2, 0.55, 0.11, 0.1,0.2,0.6,0.4],
+                                    backgroundColor: [
+                                        'rgba(255,165,16, 0.25)',
+                                        'rgba(255,165,16, 0.3)',
+                                        'rgba(255,165,16, 0.4)',
+                                        'rgba(255,165,16, 0.2)',
+                                        'rgba(255,165,16, 0.55)',
+                                        'rgba(255,165,16, 0.11)',
+                                        'rgba(255,165,16, 0.1)',
+                                        'rgba(255,165,16, 0.2)',
+                                        'rgba(255,165,16, 0.6)',
+                                        'rgba(255,165,16, 0)'
+                                    ],
+                                    borderColor: [
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(125,206,160,1)'
+                                    ],
+                                    borderWidth: 2
+                                }]
+                            },
+                            options: {
+                                scales: {
+                                    yAxes: [{
+                                        ticks: {
+                                            beginAtZero:true
+                                        }
+                                    }]
+                                }
+                            }
+                        });
+                        };
+                        posi_graph();
+                    </script>
+
+                </div>
+                <div class="con-box" id="most-used-words">
+                    <h1 id="most-used-big-header">על מה מדובר?</h1>
+                    <p id="most-used-p">מילות מפתח פופולריות לאחרונה</p>
+                    
+                    <div id="most-used-words-list">
+                        <p class="most-used-word-element" id="most-used-ele-1">1.<span class="most-used-word" id="word-1-in-list">ארנבים</span></p>
+                        <p class="most-used-word-element" id="most-used-ele-2">2.<span class="most-used-word" id="word-2-in-list">דורבנים</span></p>
+                        <p class="most-used-word-element" id="most-used-ele-3">3.<span class="most-used-word" id="word-3-in-list">צוללות</span></p>
+                        <p class="most-used-word-element" id="most-used-ele-4">4.<span class="most-used-word" id="word-4-in-list">חברים</span></p>
+                        <p class="most-used-word-element" id="most-used-ele-5">5.<span class="most-used-word" id="word-5-in-list">ג'ק ברקר</span></p>
+                    </div>
+                </div>
+                <div id="about-seperator">
+                    <div id="about-ud-link-div">
+                        <a id="about-us-link">עוד עלינו</a>
+                    </div>
+                    
+                    <img id="img-back-img" src="pics/news-newsletter-newspaper-information-158651.jpeg">
+                </div>
+                <div class="con-box" id="our-statics">
+                    <p id="statics-headline">אנחנו סורקים בכל <span id="artc-num">30</span> דקות</p>
+                    
+                    <div id="some-statics">
+                        <div class="statics-div" id="right-statics">
+                            <p class="statics-txt" id="statics-1">207</p>
+                            <p class="statics-txt" id="statics-2">כתבות</p>
+                        </div>
+                        
+                        <div class="statics-div" id="left-statics">
+                            <p class="statics-txt" id="statics-3">מתוך <span id="news-num">6</span></p>
+                            <p class="statics-txt" id="statics-4">עיתונים</p>
+                        </div>
+                    </div>
+                    
+                    <div id="gif-scan">
+                        <iframe id="gif-frame" src="https://giphy.com/embed/YyIpyQtuiTyLK" width="480" height="360" frameBorder="0" allowFullScreen></iframe></div>
+                    <p id="many-scans">סרקנו כבר<span id="scans-num">15131</span>כתבות מאתרים שונים</p>
+                </div>
+                <div class="con-box" id="negative-graph">
+                    <h1 class="graph-head">כמה רע לנו?</h1>
+                    <p class="graph-p">הגרף מציג את ממוצע היחס בין המילים<span id="nega-graph-bold"> השליליות</span> בטקסט לשאר המילים</p>
+                    <div class="graph_con">
+                        <canvas id="nega_chart" width="400px" height="200px"></canvas>
+                    </div>
+                    <script>
+                        function nega_graph(){
+                        var ctx = document.getElementById("nega_chart");
+                        Chart.defaults.global.defaultFontColor = "#686868";
+                        Chart.defaults.global.defaultFontFamily	= "'Alef', sans-serif";
+                        Chart.defaults.global.defaultFontSize = 16;
+//                        Chart.defaults.global.cornerRadius = 10;
+                        Chart.defaults.global.hoverBorderColor = "pink";
+                        var nega_chart = new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: ["מעריב", "ישראל היום", "Mako", "וואלה!", "כלכליסט", "Ynet","NRG","כיכר השבת","גלובס","ממוצע"],
+                                datasets: [{
+                                    label: 'אחוז המילים החיוביות בטקסט',
+                                    data: [0.5, 0.3, 0.4, 0.2, 0.6, 0.55, 0.1,0.2,0.6,0.4],
+                                    backgroundColor: [
+                                        'rgba(255,165,16, 0.5)',
+                                        'rgba(255,165,16, 0.3)',
+                                        'rgba(255,165,16, 0.4)',
+                                        'rgba(255,165,16, 0.2)',
+                                        'rgba(255,165,16, 0.6)',
+                                        'rgba(255,165,16, 0.55)',
+                                        'rgba(255,165,16, 0.1)',
+                                        'rgba(255,165,16, 0.2)',
+                                        'rgba(255,165,16, 0.6)',
+                                        'rgba(255,165,16, 0)'
+                                    ],
+                                    borderColor: [
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(255,165,16, 1)',
+                                        'rgba(255,165,16, 1)',
+                                        'firebrick'
+                                    ],
+                                    borderWidth: 2
+                                }]
+                            },
+                            options: {
+                                scales: {
+                                    yAxes: [{
+                                        ticks: {
+                                            beginAtZero:true
+                                        }
+                                    }]
+                                }
+                            }
+                        });
+                        };
+                        nega_graph();
+                    </script>
+                </div>
+                <div class="con-box" id="scaners">
+                    <p id="scanners-head">אנחנו סורקים כתבות מ:</p>
+                    <p id="all-scanners"><a target="_blank" href="http://www.mako.co.il/" class="scanner_name">Ynet</a>
+                    <a target="_blank" href="https://www.calcalist.co.il/home/0,7340,L-8,00.html" class="scanner_name">כלכליסט!</a>
+                    <a target="_blank" href="https://www.walla.co.il/" class="scanner_name">וואלה!</a>
+                    <a target="_blank" href="http://www.israelhayom.co.il/" class="scanner_name">ישראל היום</a>
+                    <a target="_blank" href="http://www.mako.co.il/" class="scanner_name">מאקו</a>
+                        <a target="_blank" href="https://www.ynet.co.il/home/0,7340,L-8,00.html" class="scanner_name">Ynet</a>
+                        <a target="_blank" href="http://www.kan.org.il/page.aspx?landingPageId=1009" class="scanner_name">כאן</a>
+                    
+                    </p>
+                </div>
+            </div>
+            <footer id="footer">
+                <div id="fake-bg"></div>
+                <p id="footer-text">HaAntena, 2017©</p>
+                <img id="footer-img" src="pics/footer_img.png" alt="footer-wave">
+                
+            </footer>
+        </div>
+        </div>
+    </body>
+    
+    <script>
+            function mobile_view(){
+            var is_mobile = !!navigator.userAgent.match(/iphone|android|blackberry/ig) || false;
+            var win_width = $(window).width();
+            if(is_mobile == true ){
+                $(".con-box").css("width" ,  "94%");
+                $(".con-box").css("right" , "3%");
+                $(".side-bar").hide();
+                $("#content-body").css("width" , "100%");
+               }
+            else if (win_width < 400){
+                $(".con-box").css("width" , "94%");
+                $(".con-box").css("right" , "3%");
+            }
+        }
+        
+        function content_pos(){
+            var back_width = 0;
+            var con_width = 0;
+            var back_width = $("#content-body").width();
+            var con_width = $("#min-content").width();
+            
+            var con_right = (back_width - con_width) / 2;
+            $("#min-content").css("margin-right", con_right);
+            
+            console.log("back", back_width)
+            console.log("con", con_width)
+            console.log("yo", con_right)
+        };
+        
+        function footer_pos(){
+            
+            var p_height = $("#content").outerHeight()
+            $("#footer").css("top",p_height + 38)
+        }
+        
+        $(document).ready(function(){
+            footer_pos();
+            mobile_view();
+        });
+        
+        $(window).resize(function() {
+            footer_pos();
+            mobile_view();
+        });
+    </script>
+</html>

@@ -1,0 +1,27 @@
+$(document).ready(function () {
+    //forms' "submit"
+    $('.save').click(function (e) {
+        console.log($(e.currentTarget).parents().find('form.tala_form'))
+        $.ajax({
+            type: 'POST',
+            url: "process_tala_update.php",
+            data: $(e.currentTarget).parents().find('form.tala_form').serialize(),
+            success: function (data) {
+                alertify.log("העדכון בוצע בהצלחה");
+                console.log(data);
+            },
+            error: function (data) {
+                alertify.error("אירעה תקלה, המידע לא עודכן.");
+                //console.log(data);
+            },
+        });
+    });
+    
+    var time_selects = $('.time_target_menus');
+    for (var j=0; j<time_selects.length; j++) {
+        var time_select = $(time_selects[j]);
+        var chosen_before = time_select.attr('chosen_before');
+        console.log($(time_select.children().find('options.time_options[val="' + chosen_before + '"]')).get(0))
+        time_select.children().find("options.time_options:contains('" + chosen_before + "')").prop('selected', true);
+    }
+});

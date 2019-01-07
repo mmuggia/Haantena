@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>news</title>
+        <link rel="shortcut icon" type="image/png" href="tukan-icon.png"/>
+        <link rel="stylesheet" href="circle.css">
+        <link href="https://fonts.googleapis.com/css?family=Alef:400,700|Work+Sans:400,700&amp;subset=hebrew" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    
+    
+    <div id="container">
+        <div id="center"></div>
+        <div class="field" id="circle_1">1</div>
+        <div class="field" id="circle_2">2</div>
+        <div class="field" id="circle_3">3</div>
+        <div class="field" id="circle_4">4</div>
+<!--
+        <div class="field" id="circle_5">5</div>
+        <div class="field" id="circle_6">6</div>
+-->
+    </div>
+    <div id="graph_con">
+        <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
+    
+    <script src="JS/Chart.js"></script>
+    <script src="JS/Chart.min.js"></script>
+    <script>
+        var ctx = document.getElementById("myChart");
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ["הארץ", "ישראל היום", "Yellow", "Green", "Purple", "Orange","Pink"],
+                datasets: [{
+                    label: '# of Votes',
+                    data: [0.25, 0.3, 0.4, 0.2, 0.55, 0.11, 0.1],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255,99,132,1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero:true
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+    
+    <script>
+        var circle_radius = $(".field").width();
+        var big_circle_radius = 350;
+        
+        
+        var center_pos = false;
+            $(".field").mouseover(function(){
+            var circle_pos = $("#circle_1").position();
+            console.log(circle_pos);
+            center_circle();
+            center_pos = false;
+        });
+        
+        $(".field").mouseout(function(){
+            center_pos = true;
+            back_circle();
+        });
+        
+        function back_circle(){
+            var c = $("#center");
+            var position = c.position();
+            $("#circle_1").css({"width": circle_radius,"height": circle_radius,"background": "red", "margin-left": (position.left - (big_circle_radius / 2)) , "margin-top":  ((position.top /2 ) - (big_circle_radius / 2))})  
+        };
+        
+        function center_circle(){
+            var circle_pos = $("#circle_1").position();
+            var c = $("#center");
+            var position = c.position();
+            $("#circle_1").css({"height": big_circle_radius,"width": big_circle_radius,"background": "pink", "left": (position.left - (big_circle_radius / 2)) , "top": (position.top - (big_circle_radius / 2))});
+        };
+
+        
+        function circle_build(){
+            var first_circle_pos = []
+            circle_num = 0
+            
+            var radius = 300;
+            var fields = $('.field'), container = $('#container'), width = container.width(), height = container.height();
+            var angle = 0, step = (2*Math.PI) / fields.length;
+            fields.each(function() {
+                var x = Math.round(width/2 + radius * Math.cos(angle) - $(this).width()/2);
+                var y = Math.round(height/2 + radius * Math.sin(angle) - $(this).height()/2);
+                
+                first_circle_pos.push(circle_num,x,y)
+                circle_num += 1
+                if(window.console) {
+                    console.log($(this).text(), x, y);
+                    console.log(first_circle_pos)
+                }
+                $(this).css({
+                    left: x + 'px',
+                    top: y + 'px'
+                });
+                angle += step;
+        })};
+        circle_build();
+        
+        
+        
+    </script>
+</html>
